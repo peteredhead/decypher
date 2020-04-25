@@ -1,0 +1,32 @@
+#inputText,
+#outputText {
+  width: 95vw;
+  height: 30vh;
+  border: 1px solid;
+  overflow-y: auto;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#sortedCypher,
+#cypher {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#sortedCypher > div,
+#cypher label {
+  display: flex;
+  flex-direction: column;
+  width: 1.2xem;
+  padding-right: 0.15em;
+  text-align: center;
+  border: 1px solid #ededed;
+}
+
+#cypher input {
+  width: 1em;
+  display: inline-block;
+  margin: auto;
+  text-transform: uppercase;
+}
